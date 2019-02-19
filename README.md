@@ -9,6 +9,8 @@ products:
 
 # Build a Flask app using Azure Cosmos DB for MongoDB API
 
+![Build passing](https://img.shields.io/badge/build-passing-brightgreen.svg)
+
 This content was taken from [this repo](https://github.com/Azure-Samples/CosmosDB-Flask-Mongo-Sample) as a demonstration of how we can update the samples template to provide more context to developers.
 
 This sample shows you how to use the Azure Cosmos DB for MongoDB API to store and access data from a Flask application.
