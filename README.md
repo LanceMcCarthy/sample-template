@@ -21,7 +21,7 @@ This sample shows you how to use the Azure Cosmos DB for MongoDB API to store an
 - Install [Visual Studio Code](https://code.visualstudio.com/Download) for your platform.
 - Install the Don Jayamanne's [Python Extension](https://marketplace.visualstudio.com/items?itemName=donjayamanne.python)
 
-## Getting started
+## Setup
 
 1. Clone or download this sample repository
 3. Run the following command to install the required Python modules in the context of the sample folder.
@@ -30,7 +30,7 @@ This sample shows you how to use the Azure Cosmos DB for MongoDB API to store an
     ```
 4. Open the sample folder in Visual Studio Code or your IDE of choice.
 
-## Run the sample
+## Running the sample
 
 1. Make sure the Azure Cosmos DB Emulator is running.
 2. Open a terminal window and `cd` to the directory that the app is saved in.
