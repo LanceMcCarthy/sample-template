@@ -15,6 +15,13 @@ This content was taken from [this repo](https://github.com/Azure-Samples/CosmosD
 
 This sample shows you how to use the Azure Cosmos DB for MongoDB API to store and access data from a Flask application.
 
+## Contents
+
+| File/folder | Description |
+|-------------|-------------|
+| `README.md` | This README file. |
+| `LICENSE`   | The license file for the sample. |
+
 ## Prerequisites
 
 - Download the [Azure Cosmos DB Emulator](https://docs.microsoft.com/azure/cosmos-db/local-emulator). The emulator is currently only supported on Windows.
