@@ -19,8 +19,12 @@ This sample shows you how to use the Azure Cosmos DB for MongoDB API to store an
 
 | File/folder | Description |
 |-------------|-------------|
+| `src`       | Sample source code. |
+| `.gitignore` | Define what to ignore at commit time. |
+| `CHANGELOG.md` | List of changes to the sample. |
+| `CONTRIBUTING.md` | Guidelines for contributing to the sample. |
 | `README.md` | This README file. |
-| `LICENSE`   | The license file for the sample. |
+| `LICENSE`   | The license for the sample. |
 
 ## Prerequisites
 
