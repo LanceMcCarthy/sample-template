@@ -49,3 +49,29 @@ When deploying to Azure, you should remove your application keys and make sure t
 ```
 
 You then need to add your MONGOURL, MONGO_PASSWORD, and MONGO_USERNAME to the application settings. You can follow the [website configuration tutorial](https://docs.microsoft.com/azure/app-service-web/web-sites-configure#application-settings) to learn more about Application Settings in Azure Web Apps.
+
+## Code walkthrough
+
+Let's take a quick review of what's happening in the app. Open the `app.py` file under the root directory and you find that these lines of code create the Azure Cosmos DB connection. The following code uses the connection string for the local Azure Cosmos DB Emulator. The password needs to be split up as seen below to accommodate for the forward slashes that cannot be parsed otherwise.
+
+* Initialize the MongoDB client, retrieve the database, and authenticate.
+
+    ```python
+    client = MongoClient("mongodb://127.0.0.1:10250/?ssl=true") #host uri
+    db = client.test    #Select the database
+    db.authenticate(name="localhost",password='C2y6yDjf5' + r'/R' + '+ob0N8A7Cgv30VRDJIWEHLM+4QDU5DE2nQ9nDuVTqobD4b8mGGyPMbIZnqyMsEcaGQy67XIw' + r'/Jw==')
+    ```
+
+* Retrieve the collection or create it if it does not already exist.
+
+    ```python
+    todos = db.todo #Select the collection
+    ```
+
+* Create the app
+
+    ```Python
+    app = Flask(__name__)
+    title = "TODO with Flask"
+    heading = "ToDo Reminder"
+    ```
