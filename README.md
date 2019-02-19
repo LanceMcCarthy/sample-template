@@ -51,6 +51,10 @@ This sample shows you how to use the Azure Cosmos DB for MongoDB API to store an
 
 ## Deploy to Azure
 
+<a href="https://deploy.azure.com/?repository=https://github.com/heatherbshapiro/To-Do-List---Flask-MongoDB-Example" target="_blank">
+<img src="http://azuredeploy.net/deploybutton.png"/>
+</a>
+
 To deploy this app, you can create a new web app in Azure and enable continuous deployment with a fork of this GitHub repo. Follow the [App Service continuous deployment tutorial](https://docs.microsoft.com/azure/app-service-web/app-service-continuous-deployment) to set up continuous deployment with GitHub in Azure.
 
 When deploying to Azure, you should remove your application keys and make sure the section below is not commented out:
