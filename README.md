@@ -9,7 +9,7 @@ products:
 
 # Build a Flask app using Azure Cosmos DB for MongoDB API
 
-![Build passing](https://img.shields.io/badge/build-passing-brightgreen.svg) ![Code coverage](https://img.shields.io/badge/coverage-100%25-brightgreen.svg) ![License](https://img.shields.io/badge/license-MIT-green.svg)
+![Flask sample build badge](https://img.shields.io/badge/build-passing-brightgreen.svg) ![Flask sample code coverage badge](https://img.shields.io/badge/coverage-100%25-brightgreen.svg) ![Flask sample MIT license badge](https://img.shields.io/badge/license-MIT-green.svg)
 
 This content was taken from [this repo](https://github.com/Azure-Samples/CosmosDB-Flask-Mongo-Sample) as a demonstration of how we can update the samples template to provide more context to developers.
 
