@@ -46,7 +46,7 @@ This sample shows you how to use the Azure Cosmos DB for MongoDB API to store an
 1. Make sure the Azure Cosmos DB Emulator is running.
 2. Open a terminal window and `cd` to the directory that the app is saved in.
 3. Set the environment variable for the Flask app with `set FLASK_APP=app.py` on Windows, or `export FLASK_APP=app.py` if you are using macOS.
-4. Run the app with `flask run` and point your browser to `http://127.0.0.1:5000/`.
+4. Run the app with `flask run` and point your browser to `http://127.0.0.1:10250/`.
 5. Add and remove tasks and see them added and changed in the collection.
 
 ## Deploy to Azure
